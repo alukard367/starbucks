@@ -120,6 +120,27 @@ section a {
     margin: 0 auto;
 }
 
+.box-text {
+    max-width: 500px;
+    text-align: center;
+    justify-self: center;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+
+.box-f .box-text {
+    max-width: 600px;
+    min-height: 160px;
+    max-height: 250px;
+    padding: 0 10px;
+}
+
+
+
+.box-text .btn {
+    margin-top: 20px;
+}
+
 /* Buttons */
 
 .btn {
@@ -139,7 +160,8 @@ section a {
     color: #000;
 }
 
-.btn-dark-outline:hover {
+.btn-dark-outline:hover,
+.btn-light-outline:hover {
     background-color: rgba(0,0,0,0.06);
 }
 
